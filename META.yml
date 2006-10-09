@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!! It will change in the future!!! XXXXX#
+name:			Apache-Syntax-Highlight-Universal
+version:		0.0.2
+version_from:	lib/Apache/syntax/Highlight/Universal.pm
+installdirs:	site
+requires:
+	mod_perl:						1.24
+	Syntax::Highlight::Universal:	0.4
+	File::MimeInfo:					0.11
+	CGI.pm:							3.08
+distribution_type:	module
+generated_by:	ExtUtils::MakeMaker version 6.17
