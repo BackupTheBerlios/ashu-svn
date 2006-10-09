@@ -1,0 +1,48 @@
+Apache-Syntax-Highlight-Universal 0.0.2
+=======================================
+
+This package is a mod_perl (1.0 and 2.0) module that provides syntax
+highlighting for any code. This module is a wrapper around
+Syntax::Highlight::Universal written by Wladimir Palant.
+
+See perldoc Apache::Syntax::Highlight::Universal for module documentation and use
+
+Note: This module was originally inspired by the Apache::Syntax::Highlight::Perl
+module, written by Enrico Sorcinelli <enrico@sorcinelli.it>.
+
+CHANGES FROM PREVIOUS VERSION
+
+	- Fixed ticket #7 Makefile.PL/META.yml are missing SOME prereq
+	- Fixed ticket #2 Do not make directories etc. a requirement
+	- Fixed ticket #4 Output XHTML only if the user agent supports it
+	- Fixed ticket #3 Add a class attribute to each pre tag
+	- Fixed ticket #5 Remove charset meta tag
+	
+See 'Changes' file in this distribution for complete history revision
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+   o mod_perl 1 or 2 (of course)
+   o Syntax::Highlight::Perl >= 1.00
+   o File::MimeInfo >= 0.11
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2005 by Daniel S. Haischt <me@daniel.stefan.haischt.name>
+
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself, either Perl version 5.8.2 or, at your option,
+any later version of Perl 5 you may have available.
