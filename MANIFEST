@@ -1,7 +1,0 @@
-Changes
-Makefile.PL
-MANIFEST
-README
-t/00base.t
-lib/Apache/Syntax/Highlight/Universal.pm
-META.yml
